@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web2 - Login</title>
     <link rel="stylesheet" href="css/login.css">
 </head>
+
 <body>
     <div>
-    <a href="index.html"><img src="img/logo2.svg" alt="Logo" ></a>
-    <form action="" method="get">
-        <label for="usuario">Usuario</label>
-        <input type="text" name="" id="usuario">
-        <label for="password">Password</label>
-        <input type="password" name="" id="password">
-        <button>Login</button>
+        <a href="index.html"><img src="img/logo2.svg" alt="Logo"></a>
+        <form action="" method="get" id="formulario">
+            <label for="usuario">Usuario</label>
+            <input type="usuario" name="" id="usuario">
+            <label for="password">Password</label>
+            <input type="password" name="" id="password">
+            <button type="submit">Login</button>
+
+            <p>Si no tienes usuario, <a href="registro.html">Crealo</a></p>
+        </form>
     </div>
-    <p>Si no tienes usuario, <a href="registro.html">Crealo</a></p>
-    </form>
-    
+    <script src="js/login.js"></script>
 </body>
+
 </html>
